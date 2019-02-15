@@ -17,10 +17,13 @@ To get started, you will need to download the following:
 2. [Organize-tool](https://pypi.org/project/organize-tool/)
 3. [Sublime Text](https://www.sublimetext.com/download)
 4. [BoostNote](https://boostnote.io/#download)
+5. This repository, as a ZIP (click the green 'Clone or download' button, then click 'Download ZIP') 
 
 ## Initial Setup
 
-First, get the organize-tool clippings into BoostNote. We will be using these clippings for automation, and you can re-use them later if needed.
+First, extract the repository from its ZIP file. You should have two folders: exercise_files and BooostNote_import.
+
+Next, you need to import the organize-tool clippings into BoostNote. We will be using these clippings for automation, and you can re-use them later if needed (and hopefully add your own eventually!)
 
 1. Open BoostNote
 2. Click the ellipsis - this will open Preferences
