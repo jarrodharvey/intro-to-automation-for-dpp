@@ -1,3 +1,0 @@
-select volume 0
-assign letter=E
-exit
