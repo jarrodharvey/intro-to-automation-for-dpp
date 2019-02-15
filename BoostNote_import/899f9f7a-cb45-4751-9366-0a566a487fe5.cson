@@ -11,7 +11,7 @@ snippets: [
     name: "Header"
     content: '''
       target_folders: &target
-        - C:/Users/jarrod.harvey.SURGEONS-MEL/Desktop/exercise_files
+        - ~/Desktop/exercise_files
       
       rules:
     '''
