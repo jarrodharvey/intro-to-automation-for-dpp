@@ -2,9 +2,9 @@ createdAt: "2019-02-14T05:40:28.910Z"
 updatedAt: "2019-02-15T03:59:56.907Z"
 type: "SNIPPET_NOTE"
 folder: "c41e43119f620bd727d8"
-title: "Read old files"
+title: "Read recently modified files"
 tags: []
-description: "Read old files"
+description: "Read recently modified files"
 snippets: [
   {
     linesHighlighted: []
@@ -15,11 +15,11 @@ snippets: [
             subfolders: true
             filters:
               - LastModified:
-                  days: 2920
-                  mode: older
+                  minutes: 2920
+                  mode: newer
               - Extension: txt
             actions:
-              - Echo: "This file was last modified in {lastmodified.year}. Here is what it contains:"
+              - Echo: "This file was last modified at {lastmodified.hour}:{lastmodified.minute}, which is less than five minutes ago. Here is what it contains:"
               - Python: |
                   old_text_file = open(path, "r")
                   if old_text_file.mode == "r":

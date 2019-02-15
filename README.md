@@ -7,7 +7,7 @@ This lesson will cover methods for automating the following tasks:
 - Moving images to a new folder for images on the desktop
 - Getting rid of 'junk' files
 - Fixing broken extensions by bulk-renaming files
-- Seeing what's inside all text files that are older than eight years
+- Seeing what's inside all text files that have been modified in the last five minutes
 
 ## Downloads
 
