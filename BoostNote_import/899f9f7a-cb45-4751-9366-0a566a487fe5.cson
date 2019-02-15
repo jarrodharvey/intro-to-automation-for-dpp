@@ -1,0 +1,22 @@
+createdAt: "2019-02-15T01:12:26.094Z"
+updatedAt: "2019-02-15T02:26:29.385Z"
+type: "SNIPPET_NOTE"
+folder: "c41e43119f620bd727d8"
+title: "Header"
+tags: []
+description: "Header"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Header"
+    content: '''
+      target_folders: &target
+        - C:/Users/jarrod.harvey.SURGEONS-MEL/Desktop/exercise_files
+      
+      rules:
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
+isPinned: true

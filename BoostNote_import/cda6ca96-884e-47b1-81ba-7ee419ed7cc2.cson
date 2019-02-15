@@ -1,0 +1,25 @@
+createdAt: "2019-02-14T05:08:10.091Z"
+updatedAt: "2019-02-15T03:59:36.404Z"
+type: "SNIPPET_NOTE"
+folder: "c41e43119f620bd727d8"
+title: "Get rid of \"garbage\" files"
+tags: []
+description: "Get rid of \"garbage\" files"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Get rid of \"garbage\" files"
+    content: '''
+        # Get rid of files beginning with "garbage_"
+          - folders: *target
+            subfolders: true
+            filters:
+              - Filename:
+                  startswith: garbage_
+            actions:
+              - Trash
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

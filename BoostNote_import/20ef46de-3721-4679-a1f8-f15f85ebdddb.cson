@@ -1,0 +1,24 @@
+createdAt: "2019-02-14T04:32:19.058Z"
+updatedAt: "2019-02-15T04:00:10.635Z"
+type: "SNIPPET_NOTE"
+folder: "c41e43119f620bd727d8"
+title: "Rename \" COPY\" to \".pdf\""
+tags: []
+description: "Rename \" COPY\" to \".pdf\""
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Rename \" COPY\" to \".pdf\""
+    content: '''
+        # Renames files ending in the word " COPY" to ".pdf"
+          - folders: *target
+            subfolders: true
+            filters:
+              - Regex: '^(?P<file_beginning>.*) COPY$'
+            actions:
+              - Rename: "{regex.file_beginning}.pdf"
+    '''
+  }
+]
+isStarred: false
+isTrashed: false
