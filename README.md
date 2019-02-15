@@ -41,3 +41,7 @@ Now set Sublime Text as your default .yml editor.
 2. You may be asked to choose a default editor; if so then pick Sublime Text
 
 You are now ready to get started! Have fun, I will guide you through the rest.
+
+## Common error messages
+
+If you get an error message like "ERROR! while parsing a block mapping" after you copy and paste a rule into the config.yml file, highlight the rule that you just added and press the TAB key. This should properly align the rule, as YAML files are very finicky about formatting!
