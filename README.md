@@ -33,7 +33,7 @@ Next, you need to import the organize-tool clippings into BoostNote. We will be 
 6. Drag and drop all of the files from the 'BoostNote_Import' folder into the 'notes' folder
 7. Go back to BoostNote
 8. Go to View > Reload
-9. A new folder called "Unknown 1" would have appeared; right click this and rename it "Organize-tool"
+9. A new folder called "Unknown 1" would have appeared; right click this and rename it "Organize"
 
 Now set Sublime Text as your default .yml editor.
 
