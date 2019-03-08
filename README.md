@@ -39,3 +39,7 @@ If you got this error after you copied and pasted a rule into the config.yml fil
 ### ERROR! Unacceptable pattern: ''
 
 You have entered a folder that doesn't exist.
+
+### ERROR! No rules found in configuration file
+
+Did you remember to save your config file after adding Rules?
