@@ -10,12 +10,12 @@ snippets: [
     linesHighlighted: []
     name: "Read old files"
     content: '''
-          # For text files older than eight years, show their contents
+          # For text files newer than five minutes, modify their contents
           - folders: *target
             subfolders: true
             filters:
               - LastModified:
-                  minutes: 2920
+                  minutes: 5
                   mode: newer
               - Extension: txt
             actions:
