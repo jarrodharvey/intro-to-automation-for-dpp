@@ -27,8 +27,8 @@ Now, you need to import the organize-tool clippings into Boostnote. We will be u
 5. Open the notes folder
 6. Drag and drop all of the files from the 'Boostnote_Import' folder (on your desktop) into the 'notes' folder
 7. Go back to Boostnote
-8. Go to View > Reload
-9. A new folder called "Unknown 1" would have appeared; right click this and rename it "Organize"
+8. Go to View > Reload (or ctrl+r)
+9. In "My Storage Location" there should be a new folder called "Unknown 1" would have appeared; right click this and rename it "Organize"
 
 ## Common error messages
 
