@@ -43,3 +43,7 @@ You have entered a folder that doesn't exist.
 ### ERROR! No rules found in configuration file
 
 Did you remember to save your config file after adding Rules?
+
+### ERROR! 'NoneType' object is not iterable
+
+You added the header declaring variables, and 'rules:' but did you add the rules themselves?
