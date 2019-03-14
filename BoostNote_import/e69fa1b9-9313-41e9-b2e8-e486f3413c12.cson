@@ -10,7 +10,7 @@ snippets: [
     linesHighlighted: []
     name: "Read recently modified text files"
     content: '''
-          # For text files newer than five minutes, show their contents
+          # For text files modified in the last five minutes, show their contents
           - folders: *target
             subfolders: true
             filters:
