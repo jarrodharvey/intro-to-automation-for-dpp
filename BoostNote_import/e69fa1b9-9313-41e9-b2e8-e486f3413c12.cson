@@ -2,15 +2,15 @@ createdAt: "2019-02-14T05:40:28.910Z"
 updatedAt: "2019-02-15T03:59:56.907Z"
 type: "SNIPPET_NOTE"
 folder: "c41e43119f620bd727d8"
-title: "Read recently modified files"
+title: "Read recently modified text files"
 tags: []
-description: "Read recently modified files"
+description: "Read recently modified text files"
 snippets: [
   {
     linesHighlighted: []
-    name: "Read old files"
+    name: "Read recently modified files"
     content: '''
-          # For text files newer than five minutes, modify their contents
+          # For text files newer than five minutes, show their contents
           - folders: *target
             subfolders: true
             filters:
