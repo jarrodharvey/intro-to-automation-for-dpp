@@ -47,3 +47,25 @@ Did you remember to save your config file after adding Rules?
 ### ERROR! 'NoneType' object is not iterable
 
 You added the header declaring variables, and 'rules:' but did you add the rules themselves?
+
+### ERROR! __init__() missing 1 required positional argument
+
+Did you list your actions?
+
+Remember to indent your actions properly! The below action will fail because 'dest' and 'overwrite' are not indented.
+
+```code
+    actions:
+      - Move:
+        dest: '~/Documents/Invoices/'
+        overwrite: false
+```
+
+This action will work because they were indented.
+
+```code
+    actions:
+      - Move:
+          dest: '~/Documents/Invoices/'
+          overwrite: false
+```
