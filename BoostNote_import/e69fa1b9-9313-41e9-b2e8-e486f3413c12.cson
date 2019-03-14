@@ -8,7 +8,7 @@ description: "Read recently modified text files"
 snippets: [
   {
     linesHighlighted: []
-    name: "Read recently modified files"
+    name: "Read recently modified text files"
     content: '''
           # For text files newer than five minutes, show their contents
           - folders: *target
