@@ -24,7 +24,7 @@ snippets: [
                   old_text_file = open(path, "r")
                   if old_text_file.mode == "r":
                     contents = old_text_file.read()
-                    print("\\n" + contents)
+                    print("\n" + contents)
     '''
   }
 ]
