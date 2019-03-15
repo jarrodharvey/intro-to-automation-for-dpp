@@ -69,3 +69,7 @@ This action will work because they were indented.
           dest: '~/Documents/Invoices/'
           overwrite: false
 ```
+
+### ERROR! while parsing a block collection
+
+If you see this error message, organize is upset by an indent. It will give you a list of lines that it is upset by. Try un-indenting the first line only (highlight it and press Shift-TAB on your keyboard).
