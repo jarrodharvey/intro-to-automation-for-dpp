@@ -21,7 +21,7 @@ This lesson will cover methods for automating the following tasks:
 Now, you need to import the organize-tool clippings into Boostnote. We will be using these clippings for automation, and you can re-use them later if needed (and hopefully add your own eventually!)
 
 1. Open Boostnote
-2. Click the ellipsis - this will open Preferences
+2. Click the ellipsis (it is to the left of the search bar at the top of the screen) - this will open Preferences
 3. To the right of "My Storage" you will see three icons - click the middle one (the hover text should say 'Open Storage Folder')
 4. Open the Boostnote folder
 5. Open the notes folder
