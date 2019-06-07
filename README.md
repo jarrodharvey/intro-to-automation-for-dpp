@@ -34,7 +34,9 @@ Now, you need to import the organize-tool clippings into Boostnote. We will be u
 
 ### ERROR! while parsing a block mapping
 
-If you got this error after you copied and pasted a rule into the config.yml file, highlight the rule that you just added and press the TAB key. This should properly align the rule, as YAML files are very finicky about formatting!
+If you got this error after you copied and pasted a rule into the config.yml file, highlight the rule that you just added and press ctrl (or command) + \] to indent. This should properly align the rule, as YAML files are very finicky about formatting!
+
+You can use ctrl + \[ to unindent.
 
 ### ERROR! Unacceptable pattern: ''
 
