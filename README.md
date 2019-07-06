@@ -1,6 +1,6 @@
-# Introduction to Automation for Archivists
+# Introduction to Automation for Digital Preservation Practitioners
 
-This repository contains files needed for the "Introduction to Automation for Archivists" workshop.
+This repository contains files needed for the "Introduction to Automation for Digital Preservation Practitioners" workshop.
 
 This lesson will cover methods for automating the following tasks:
 
