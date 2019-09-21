@@ -40,7 +40,7 @@ If you got this error after you copied and pasted a rule into the config.yml fil
 
 You can use ctrl + \[ to unindent.
 
-#### Cause 2: Forgot to add the 'filter' line
+#### Cause 2: Forgot to add the 'filters:' line
 
 The following rule will not work.
 
@@ -57,7 +57,7 @@ rules:
       - echo: 'Found a match.'
       
 ```
-This is because 'filters:' is missing from beneath 'folders'. Don't forget to add the 'filters' line!
+This is because 'filters:' is missing from beneath 'folders'. Don't forget to add the 'filters:' line!
 
 ### ERROR! Unacceptable pattern: ''
 
