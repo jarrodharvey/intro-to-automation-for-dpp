@@ -123,3 +123,20 @@ pip uninstall organize-tool
 ```
 
 Then follow the installation instructions for re-installation.
+
+### ERROR: Please specify your filters as a YAML list
+
+You may have included your filter but forgotten to include what you were actually filtering ON.
+
+```code
+    filters:
+          startswith: A
+```
+
+In the above example, you might have meant to filter on files that start with the letter A, but you forgot to include the type of filter. The below solution will work.
+
+```code
+    filters:
+      - filename:
+          startswith: A
+```          
