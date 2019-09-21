@@ -89,7 +89,7 @@ rules:
 ```
 ### ERROR! 'module' object is not callable
 
-I've only seen this error when organize itself is corrupted. Uninstall with the following command if you're on Mac:
+I've only seen this error when organize itself is corrupted. Uninstall with the following command at the command line if you're on Mac:
 
 ```code
 sudo pip3 uninstall organize-tool
@@ -98,7 +98,7 @@ sudo pip3 uninstall organize-tool
 Or this command if you're on Windows:
 
 ```
-pip3 uninstall organize-tool
+pip uninstall organize-tool
 ```
 
 Then follow the installation instructions for re-installation.
