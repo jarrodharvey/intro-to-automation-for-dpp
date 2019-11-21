@@ -140,3 +140,11 @@ In the above example, you might have meant to filter on files that start with th
       - filename:
           startswith: A
 ```          
+
+### ERROR! 'PosixPath' object has no attribute 'items' 
+
+If you are a Mac/Linux user, you will get this error when trying to use the rename functionality. You should ignore this error as it doesn't appear to mean anything - renaming will still work despite this error appearing. The error appears to be related to a recent release of Organize.
+
+### ERROR! 'WindowsPath' object has no attribute 'items' 
+
+If you are a Windows user, you will get this error when trying to use the rename functionality. You should ignore this error as it doesn't appear to mean anything - renaming will still work despite this error appearing. The error appears to be related to a recent release of Organize.
