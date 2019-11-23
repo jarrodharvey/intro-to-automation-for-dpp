@@ -141,7 +141,7 @@ In the above example, you might have meant to filter on files that start with th
           startswith: A
 ```          
 
-### ERROR! 'PosixPath' object has no attribute 'items' *or* 
+### ERROR! 'PosixPath' object has no attribute 'items'
 
 This error occurs for Mac users in Organize version 1.61 when you attempt to rename a file. To fix this error, simply upgrade your version of Organize by entering the following command into your command line.
 
