@@ -141,10 +141,23 @@ In the above example, you might have meant to filter on files that start with th
           startswith: A
 ```          
 
-### ERROR! 'PosixPath' object has no attribute 'items' 
+### ERROR! 'PosixPath' object has no attribute 'items' *or* 
 
-If you are a Mac/Linux user, you will get this error when trying to use the rename functionality. You should ignore this error as it doesn't appear to mean anything - renaming will still work despite this error appearing. The error appears to be related to a recent release of Organize.
+This error occurs for Mac users in Organize version 1.61 when you attempt to rename a file. To fix this error, simply upgrade your version of Organize by entering the following command into your command line.
+
+```bash
+sudo pip install organize-tool --upgrade
+```
+
+Once installation is complete, try running the rename command again.
+
 
 ### ERROR! 'WindowsPath' object has no attribute 'items' 
 
-If you are a Windows user, you will get this error when trying to use the rename functionality. You should ignore this error as it doesn't appear to mean anything - renaming will still work despite this error appearing. The error appears to be related to a recent release of Organize.
+This error occurs for Windows users in Organize version 1.61 when you attempt to rename a file. To fix this error, simply upgrade your version of Organize by entering the following command into your command line.
+
+```bash
+pip install organize-tool --upgrade
+```
+
+Once installation is complete, try running the rename command again.
