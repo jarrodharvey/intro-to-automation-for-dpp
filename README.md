@@ -161,3 +161,12 @@ pip install organize-tool --upgrade
 ```
 
 Once installation is complete, try running the rename command again.
+
+### Nothing to do.
+
+This message will appear if:
+
+* Your filter doesn't match any files
+* You have already run the rules and have forgotten
+* You're pointing your rules at the wrong folder
+* You haven't indented one of your filters, so Organize is ignoring it
